@@ -5,15 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Page</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Page!</h1>
+    <h1 style="color:rgb(119, 179, 159)">Welcome to My Page!</h1>
     <h2>My name is Bob.</h2>
     <h3>I hope you like it here.</h3>
     <h4>I like my cat.</h4>
     <h5>miaomiaomiao</h5>
     <h2>miao</h2>
     <p>this is my paragragh</p>
-    <img src="https://www.cuhk.edu.hk/chinese/images/cuhk_logo_2x.png?20150907">
+    <img width="50%" height="50%" src="https://www.cuhk.edu.hk/chinese/images/cuhk_logo_2x.png?20150907">
+    <br>
+    <a href="https://www.cuhk.edu.hk/chinese/index.html" target='_blank'> go to CUHK</br></a>.
+    <b>Bold text</b>
+<i>Italic text</i></body></br>
+<u>Underlined text</u>
+<sub>Subscript text</sub>
+<sup>Superscript text</sup>
+<table cellspacing="1px" cellpadding="10px"border="1">
+    <tr>
+        <th>First name</th><th>Last name</th><th>Major</th>
+    </tr>
+    <tr>
+        <td>Michael</td><td>Chan</td><td>Journalism</td>
+    </tr>
+    <tr>
+        <td>David</td><td>Lee</td><td>Culture study</td>
+    </tr>
+    <tr>
+        <td>Mary</td><td>Lu</td><td>Engineering</td>
+    </tr>
+</table>
+<ul>
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>strawberry</li>
+</ul>
+<form action="/register" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" placeholder="First Name">
+    <label for="lname"></label>
+    <input type="text" name="lname" placeholder="Last Name">
+    <label for="password"></label>
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="Submit">
+   </form>
 </body>
 </html>
